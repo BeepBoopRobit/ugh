@@ -9,6 +9,11 @@ metadata:
   name: tanzu-java-web-app
   namespace: dev
 spec:
+  params:
+  - name: testing_pipeline_matching_labels
+    value:
+      apps.tanzu.vmware.com/pipeline: test
+      apps.tanzu.vmware.com/language: java
   source:
     git:
       ref:
