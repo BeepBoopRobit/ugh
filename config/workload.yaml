@@ -18,6 +18,6 @@ spec:
   source:
     git:
       ref:
-        branch: dev
+        branch: main
         #url: ssh://git@gitlab.snugl.io/asdf/tanzu-java-web-app.git
       url: https://gitlab.snugl.io/asdf/tanzu-java-web-app.git
