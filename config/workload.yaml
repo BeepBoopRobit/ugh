@@ -34,5 +34,5 @@ spec:
   source:
     git:
       ref:
-        branch: main
+        branch: dev
       url: https://github.com/BeepBoopRobit/ugh.git
